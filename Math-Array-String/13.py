@@ -14,7 +14,7 @@ class Solution:
 
 
 sol = Solution()
-output = sol.twoSum([2,7,11,15], 17)
+output = sol.twoSum([2,7,11, 15], 17)
 print(output)
 
 
