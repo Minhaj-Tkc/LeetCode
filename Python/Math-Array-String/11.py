@@ -22,7 +22,7 @@ print(output)
 # import math
 # class Solution:
 #     def findGCD(self, nums: List[int]) -> int:
-#         mn=min(nums)
-#         mx=max(nums)
-#         gcd=math.gcd(mn, mx)
+#         mn = min(nums)
+#         mx = max(nums)
+#         gcd = math.gcd(mn, mx)
 #         return gcd
