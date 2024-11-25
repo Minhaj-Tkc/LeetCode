@@ -10,8 +10,10 @@ var isPerfectSquare = function(num) {
     }
     
     let x = num; // Initial guess for the square root
+
+    // Iterative Refinement (Newton's Method)
     while (x * x > num) {
-        x = Math.floor((x + Math.floor(num / x)) / 2); // Newton's method formula
+        x = Math.floor((x + Math.floor(num / x)) / 2); 
     }
     
     return x * x === num; // Check if the square of the final x equals num
