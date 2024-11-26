@@ -24,4 +24,4 @@ var getConcatenation = function (nums) {
   return [...nums, ...nums]
 };
 
-console.log(getConcatenation([15,20,15])); // output = [15,20,15,15,20,15]
+console.log(getConcatenation([10,20,10])); // output = [15,20,15,15,20,15]
