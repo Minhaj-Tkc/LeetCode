@@ -12,6 +12,16 @@ print(output)
 
 
 # Using replace method
-class Solution:
-    def defangIPaddr(self, address: str) -> str:
-        return address.replace('.', '[.]')
+# class Solution:
+#     def defangIPaddr(self, address: str) -> str:
+#         return address.replace('.', '[.]')
+
+
+# if else
+# class Solution:
+#     def defangIPaddr(self, address: str) -> str:
+#         s = ''
+#         for i in address:
+#             if i == '.': s+='[.]'
+#             else: s+=i
+#         return s
