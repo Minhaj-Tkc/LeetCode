@@ -17,7 +17,7 @@ print(output)
 #         return address.replace('.', '[.]')
 
 
-# if else
+# Using if else
 # class Solution:
 #     def defangIPaddr(self, address: str) -> str:
 #         s = ''
