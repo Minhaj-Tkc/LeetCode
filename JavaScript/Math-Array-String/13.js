@@ -6,6 +6,7 @@
  * @return {number[]}
  */
 var twoSum = function (nums, target) {
+
   const newMap = new Map();
 
   for (let i = 0; i < nums.length; i++) {
@@ -16,8 +17,11 @@ var twoSum = function (nums, target) {
     }
 
     newMap.set(nums[i], i);
+    
   }
+
   return [];
+
 };
 
 console.log(twoSum([2, 5, 5, 11], 10));
