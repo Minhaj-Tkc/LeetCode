@@ -1,6 +1,5 @@
 // 657. Robot Return to Origin
 
-
 /**
  * @param {string} moves
  * @return {boolean}

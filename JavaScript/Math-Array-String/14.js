@@ -1,6 +1,5 @@
 // 2974. Minimum Number Game
 
-
 /**
  * @param {number[]} nums
  * @return {number[]}
