@@ -21,6 +21,6 @@ var differenceOfSums = function(n, m) {
 };
 
 // Example usage:
-let n = 10;
-let m = 3;
-console.log(differenceOfSums(n, m)); // Output: 19
+let n = 5;
+let m = 6;
+console.log(differenceOfSums(n, m)); // Output: 15
