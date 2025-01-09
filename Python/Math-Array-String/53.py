@@ -1,5 +1,6 @@
-# Python file
+# 2859. Sum of Values at Indices With K Set Bits
 
+from typing import List
 
 class Solution:
     def sumIndicesWithKSetBits(self, nums: List[int], k: int) -> int:
@@ -14,3 +15,8 @@ class Solution:
                 total_sum += num
                 
         return total_sum
+    
+
+sol = Solution()
+output = sol.sumIndicesWithKSetBits([4,5,6,8], 2)
+print(output) # Output: 8
