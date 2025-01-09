@@ -14,3 +14,8 @@ class Solution:
             if is_valid:
                 count += 1
         return count
+    
+
+sol = Solution()
+output = sol.findTheDistanceValue([10,45,4,5], [4,5,6,8], 2)
+print(output) # Output: 001
